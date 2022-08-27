@@ -5,11 +5,11 @@ import List from './List';
     
     return (
         <li className="Card">
-            <h1>{name}</h1>
+            {/* <h1>{name}</h1> */}
 
             <img src={image} alt={name} />
 
-            <p>{pokeType}</p>
+            {/* <p>{pokeType}</p> */}
 
         </li>
     )
